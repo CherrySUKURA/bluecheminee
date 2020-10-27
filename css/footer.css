@@ -1,0 +1,16 @@
+#footer{
+    background-color: #ffffff;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+#footer p{
+    font-size: 12px;
+    color: #8e8e8e;
+    height: 20px;
+    line-height: 20px;
+    background: transparent;
+    padding: 8px 40px;
+    text-align: left;
+}

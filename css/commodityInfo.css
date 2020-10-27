@@ -1,0 +1,76 @@
+.logo_content{
+    background-color: #fefefe;
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.1); */
+    box-shadow: 1px 1px 10px;
+}
+
+.sitecontent{
+    padding: 80px 0 0 0;
+    box-sizing: border-box;
+}
+
+.commodity_img{
+    width: 77%;
+    float: left;
+    /* padding: 50px 100px; */
+    background-color: rgb(248, 248, 248);
+    box-sizing: border-box;
+}
+
+.commodity_content_slide{
+    width: 100%;
+    height: 100%;
+}
+
+.commodity_content_slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.commodity_info{
+    width: 17%;
+    background-color: #ffffff;
+    float: left;
+    border-bottom: #cccccc 1px dotted;
+    margin: 80px 3% 0;
+}
+
+.commodity_info .info{
+    width: 340px;
+    box-sizing: border-box;
+}
+
+.commodity_info .info .title{
+    text-align: left;
+    color: #444;
+    font-size: 26px;
+    font-family: "Times New Roman", "微软雅黑";
+
+}
+
+.commodity_info .info .subtitle{
+    font-family: "Times New Roman", "微软雅黑";
+    margin-top: 5px;
+    color: #c1c1c1;
+    font-size: 16px;
+}
+
+.commodity_info .info .description{
+    color: #6a6a6a;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: left;
+    margin: 30px 0;
+}
+
+.commodity_info .info .btn{
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    background: #474747;
+    transition: all ease 0.3s;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

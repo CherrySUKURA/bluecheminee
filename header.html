@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/header.css">
+</head>
+<body>
+    <div class="logo_content">
+        <a href="index.html">
+            <img src="./image/name.png"/>
+        </a>
+    </div>
+
+    <div class="header">
+        <div class="content">
+            <ul class="nav">
+                <li>首页</li>
+            </ul>
+        </div>
+        <div class="menu_btn">
+            <label class="lab1"></label>
+            <label class="lab2"></label>
+            <label class="lab3"></label>
+        </div>
+    </div>
+
+    <script>
+        function tigger(){
+            let hide = false
+            $('.menu_btn').click(function(){
+                if(!hide){
+                    $('.header').addClass('on')
+                }else{
+                    $('.header').removeClass('on')
+                }
+                hide = !hide
+
+            })
+        }
+        tigger()
+    </script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+/*index.html*/
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.container .container_wrapper{
+    position: relative;
+}
+
+.container .container_wrapper .container_slide{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.brand{
+    background-color: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, .06);
+    border-bottom: 1px solid rgba(0, 0, 0, .06);
+}
+
+.brand_content{
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+.brand_content .brand_img{
+    width: 260px;
+    height: 140px;
+    margin-right: 50px;
+}
+
+.brand_img img{
+    width: 100%;
+}
+
+.brand_content .brand_body{
+    width: 790px;
+}
+
+.brand_body .brand_title{
+    margin-bottom: 5px;
+}
+
+.brand_body .brand_title .p1{
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+}
+
+.brand_title .p1::before{
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: #000000;
+    transition:  all 0.4s;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.brand_body:hover .brand_title .p1::before{
+    width: 20px;
+    left: -30px;
+}
+
+.brand_body .brand_title .p2{
+    color: rgba(0, 0, 0, .3);
+    font-size: 18px;
+}
+
+.brand_body .brand_matter{
+    text-align: left;
+    color: #909090;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.commodity{
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, .06);
+}
+
+.commodity .commodity_content{
+    padding: 100px 0 80px;
+    box-sizing: border-box;
+}
+
+.commodity .commodity_content .commodity_header{
+    width: 100%;
+    padding: 15px;
+    padding-bottom: 60px;
+}
+
+.commodity .commodity_content .commodity_header .title{
+    font-family: "Arial", "微软雅黑";
+    text-align: left;
+    margin-left: 0;
+    font-size: 20px;
+}
+
+.commodity .commodity_content .commodity_header .subtitle{
+    color: #a5a5a5;
+    font-size: 12px;
+    text-align: left;
+    font-family: "Arial", "微软雅黑";
+}
+
+.commodity .commodity_content .item_content{
+    position: relative;
+}
+
+.commodity .commodity_content .btn_content{
+    padding: 50px 0;
+}
+
+.partner{
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, .06);
+}
+
+.partner .partner_content{
+    padding: 30px 0 10px 0;
+    box-sizing: border-box;
+}
+
+.partner .partner_content .partner_header{
+    width: 100%;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-weight: 1000;
+}
+
+.partner .partner_content .partner_header .title{
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+}
+
+.partner .partner_content .partner_header .subtitle{
+    font-size: 30px;
+    color: rgb(229, 229, 229);
+}
+
+.partner .partner_content .partner_list{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    padding: 50px 0 60px;
+}
+
+.partner .partner_content .partner_list .item{
+
+}
+
+.partner .partner_content .partner_list .item img{
+    width: 100%;
+    height: 100%;
+}
+
+.contact_us{
+    background-color: #ffffff;
+}
+
+.contact_us .contact_us_content{
+    padding: 100px 0 50px;
+    box-sizing: border-box;
+}
+
+.contact_us .contact_us_content .us{
+    width: 35%;
+    float: left;
+}
+
+.contact_us .contact_us_content .us h3{
+    font-size: 16px;
+    margin-bottom: 45px;
+    color: #666;
+    line-height: 24px;
+    font-weight: 100;
+}
+
+.contact_us .contact_us_content .us p{
+    margin-bottom: 5px;
+    line-height: 24px;
+    color: #989898;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 13px;
+    width: 100%;
+}
+
+.contact_us .contact_us_content .info{
+    width: 55%;
+    float: right;
+}
+
+.contact_us .contact_us_content .info div{
+    width: 28%;
+    float: left;
+    margin-right: 30px;
+}
+
+.contact_us .contact_us_content .info div input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 10px 0px 13px 0;
+    color: #5c5c5c;
+    font-size: 13px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.contact_us .contact_us_content .info textarea{
+    width: calc( 100% - 30px );
+    height: 90px;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 10px 0px 13px 0;
+    color: #5c5c5c;
+    font-size: 13px;
+    background-color: transparent;
+}
+
+.contact_us .contact_us_content .info button{
+    width: 100px;
+    height: 40px;
+    background-color: #999;
+    border: 1px solid rgba(0, 0, 0, .1);
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.contact_us .contact_us_content .info button:hover{
+    background-color: #444;
+}
+

@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    /*background: transparent;*/
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+html, body {
+    font: 12px Arial, "微软雅黑";
+    color: #929292;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+body{
+    overflow-x: hidden;
+    min-width: 1200px;
+}
+fieldset, img {
+    border:0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol, ul { list-style:none; }
+caption, th { text-align:left; }
+h1, h2, h3, h4, h5, h6 {
+    font-size:200%;
+    font-weight:normal;
+}
+:focus { outline: 0;}
+a{ text-decoration:none;}
+a:hover img{ border:none;}
+/*清除浮动*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+.bg_content{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    width: 1100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.row_align{
+    float: left;
+}
+
+.both::after{
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.more{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: rgba(0, 0, 0, .3);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    line-height: 50px;
+    display: block;
+}
+
+
+.sitecontent{
+    min-width: 100%;
+    /* min-height: calc( 100vh - 70px); */
+}
+
+.waterfall .item{
+    width: calc(1100px/3);
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.waterfall .item .pic{
+    width: 100%;
+    overflow: hidden;
+}
+
+.waterfall .item .pic img{
+    width: 100%;
+    transition: all 0.6s;
+}
+
+.waterfall .item .info{
+    width: 100% ;
+    margin-top: 5px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.waterfall .item .info::after{
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: #cecece;
+    transition: all 0.6s;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.waterfall .item .info .title{
+    font-size: 15px;
+    white-space: nowrap;
+    color: #565656;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px 0 5px;
+}
+
+.waterfall .item .info .subtitle{
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 0 20px 0;
+    color: rgba(0, 0, 0, .5);
+}
+
+.waterfall .item:hover .info::after{
+    width: 100%;
+}
+
+.waterfall .item:hover .info{
+    margin-top: -1px;
+}
+
+.waterfall .item:hover .pic img{
+    transform: scale(1.1,1.1);
+}
