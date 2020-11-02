@@ -6,17 +6,17 @@ let commodityList = [
         subtitle: 'Sicilian spaghetti with grond beef',
         money: '22.00',
         id: '20201023',
-        specification: '500g',
+        specification: '100g',
         brand: '蓝色烟囱'
     },
     {
         img: ['./image/blackpepper_one.jpg','./image/blackpepper_two.jpg','./image/blackpepper_three.jpg','./image/blackpepper_four.jpg'],
         link: '2',
-        title: '黑椒牛排意面',
-        subtitle: '头牌开胃菜',
+        title: '黑椒风味厚切牛柳意面',
+        subtitle: 'Stir-fried tenderloin spaghetti with black pepper',
         money: '22.00',
         id: '20201023',
-        specification: '500g',
+        specification: '100g',
         brand: '蓝色烟囱'
     },
     {
@@ -26,7 +26,7 @@ let commodityList = [
         subtitle: 'Squid roe pasta with seafood and shiitake sauce',
         money: '22.00',
         id: '20201023',
-        specification: '500g',
+        specification: '100g',
         brand: '蓝色烟囱'
     },
     {
@@ -36,7 +36,27 @@ let commodityList = [
         subtitle: 'Thai tom yum kung pasta with seafood',
         money: '22.00',
         id: '20201023',
-        specification: '500g',
+        specification: '100g',
+        brand: '蓝色烟囱'
+    },
+    {
+        img: ['./image/namyang_one.jpg','./image/namyang_two.jpg','./image/namyang_three.jpg'],
+        link: '5',
+        title: '南洋风味咖喱鸡肉意面',
+        subtitle: 'Tropical coconut curry chicken pasta',
+        money: '22.00',
+        id: '20201023',
+        specification: '100g',
+        brand: '蓝色烟囱'
+    },
+    {
+        img: ['./image/bacon_one.jpg','./image/bacon_two.jpg','./image/bacon_three.jpg'],
+        link: '6',
+        title: '经典白汁培根蘑菇意面',
+        subtitle: 'Classical creamy bacon pasta',
+        money: '22.00',
+        id: '20201023',
+        specification: '100g',
         brand: '蓝色烟囱'
     }
 ]
@@ -73,12 +93,11 @@ function renderDom(e){
         <p class="title">${e.title}</p>
         <p class="subtitle">${e.subtitle}</p>
         <div class="description">
-            <p>价格：￥${e.money}</p>
             <p>编号： ${e.id}</p>
             <p>规格： ${e.specification}</p>
             <p>品牌： ${e.brand}</p>
         </div>
-        <button class="btn">在线询价</button>
+        <button class="btn">购买商品</button>
     `
     $('.info').html(elementNode)
 }

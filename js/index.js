@@ -3,7 +3,7 @@ let WaterFall = [
     {
         img: './image/water_one.jpg',
         title: '西西里鲜茄牛肉意面',
-        type: 'Sicilian spaghetti with grond beef',
+        type: 'Sicilian spaghetti with ground beef',
         link: '1'
     },
     {
@@ -20,33 +20,57 @@ let WaterFall = [
     },
     {
         img: './image/water_four.jpg',
-        title: '泰式冬阴功海鲜意面',
-        type: 'Thai tom yum kung pasta with seafood',
-        link: '4'
+        title: '经典三盒装',
+        type: 'Trio gift set',
+        link: ''
     },
     {
         img: './image/water_five.jpg',
-        title: '西西里鲜茄牛肉意面',
-        type: 'Sicilian spaghetti with grond beef',
+        title: '经典三盒装',
+        type: 'Trio gift set',
         link: ''
     },
     {
         img: './image/water_six.jpg',
         title: '泰式冬阴功海鲜意面',
-        type: 'Stir-fried tenderloin spaghetti with black pepper',
+        type: 'Thai tom yung pasta with seafood',
         link: '4'
     },
     {
         img: './image/water_seven.jpg',
-        title: '和风深海鱿鱼籽意面',
-        type: 'Squid roe pasta with seafood and shiitake sauce',
-        link: ''
+        title: '西西里鲜茄牛肉意面',
+        type: 'Sicilian spaghetti with ground beef ',
+        link: '1'
     },
     {
-        img: './image/water_four.jpg',
+        img: './image/water_eight.jpg',
+        title: '南洋风味咖喱鸡肉意面',
+        type: 'Tropical coconut curry chicken pasta',
+        link: '5'
+    },
+    {
+        img: './image/water_nine.jpg',
+        title: '经典白汁培根蘑菇意面',
+        type: 'Classical creamy bacon pasta',
+        link: '6'
+    },
+    {
+        img: './image/water_ten.jpg',
+        title: '黑椒风味厚切牛柳意面',
+        type: 'Stir-fried tenderloin spaghetti with black pepper',
+        link: '2'
+    },
+    {
+        img: './image/water_eleven.jpg',
         title: '泰式冬阴功海鲜意面',
-        type: 'Thai tom yum kung pasta with seafood',
-        link: ''
+        type: 'Thai tom yung pasta with seafood',
+        link: '4'
+    },
+    {
+        img: './image/water_twelve.jpg',
+        title: '和风深海鱿鱼籽意面',
+        type: 'Squid roe pasta with seafood and shiitake sauce',
+        link: '3'
     },
 ]
 let imgload = 0
